@@ -1,0 +1,89 @@
+.row img {
+  position: relative;
+  float: left;
+  left: 50px;
+  width: 300px;
+  height: 200px;
+}
+
+.row button {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  z-index: 5;
+}
+
+.row .btn1 {
+  position: absolute;
+  top: 530px;
+  left: 435px;
+}
+
+.row .btn2 {
+  position: absolute;
+  top: 530px;
+  left: 725px;
+}
+
+.row .btn3 {
+  position: absolute;
+  top: 530px;
+  left: 1030px;
+}
+
+.row .btn4 {
+  position: absolute;
+  top: 730px;
+  left: 430px;
+}
+
+.row .btn5 {
+  position: absolute;
+  top: 730px;
+  left: 725px;
+}
+
+.row .btn6 {
+  position: absolute;
+  top: 730px;
+  left: 1030px;
+}
+
+.row .btn7 {
+  position: absolute;
+  top: 930px;
+  left: 415px;
+}
+
+.row .btn8 {
+  position: absolute;
+  top: 930px;
+  left: 735px;
+}
+
+.row .btn9 {
+  position: absolute;
+  top: 930px;
+  left: 1040px;
+}
+
+
+.row .btn10 {
+  position: absolute;
+  top: 1130px;
+  left: 420px;
+}
+
+
+.row .btn11 {
+  position: absolute;
+  top: 1130px;
+  left: 710px;
+}
+
+
+.row .btn12 {
+  position: absolute;
+  top: 1130px;
+  left: 1030px;
+}

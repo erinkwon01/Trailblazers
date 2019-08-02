@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,150,0.5), rgba(0,0,50,0.5)), url(trailblazers.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.contact-title{
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2{
+  font-size: 16px;
+}
+
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px
+  margin-bottom: 16px
+}
+
+input{
+  height: 45px;
+}
+
+form.submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form.submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+#menu-nav {
+  max-width: 1000px;
+  margin: 130px auto;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: Verdana, sans-serif;
+  font: normal 300 24px;
+}
+
+#navigation-bar {
+  font: 'Montserrat'
+}
+
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  float: left;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #328332;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #328332;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+
+li {
+	list-style: none;
+}* {
+  box-sizing: border-box;
+}

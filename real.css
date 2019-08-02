@@ -1,0 +1,174 @@
+ul {list-style-type: none;}
+body {
+  background: #34495e;
+}
+body {
+
+}
+a {
+	text-decoration: none;
+}
+
+.et-hero-tabs{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+		text-align: center;
+		padding: 20px 20px 20px 20px; }
+
+.et-hero-tabs h1 {
+        margin: 0;
+        letter-spacing: 1;
+        font-family: "Playfair Display";
+        font-size: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+    }
+.et-hero-tabs h3 {
+        letter-spacing: 0.3;
+        opacity: 0.6;
+        font-family: "Playfair Display";
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 15.4px;
+    }
+.et-hero-tabs p {
+       font-family: "Playfair Display";
+       font-size: 14px;
+       font-style: normal;
+       font-variant: normal;
+       font-weight: 400;
+       line-height: 20px;
+    }
+
+
+#menu-nav {
+  max-width: 1000px;
+  margin: 130px auto;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: Verdana, sans-serif;
+  font: normal 300 24px;
+}
+
+#navigation-bar {
+  font: 'Montserrat'
+}
+
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  float: left;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #328332;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #328332;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+
+li {
+	list-style: none;
+}* {
+  box-sizing: border-box;
+}
+
+.crossfade > figure {
+  animation: imageAnimation 20s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  height: 90%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 90%;
+  z-index: 0;
+}
+.crossfade > figure:nth-child(1) {
+  animation-delay: 0s;
+  background-image: url('pra.jpg');
+}
+.crossfade > figure:nth-child(2) {
+  animation-delay: 5s;
+  background-image: url('kyoto.jpg');
+}
+.crossfade > figure:nth-child(3) {
+  animation-delay: 10s;
+  background-image: url('borabora.jpg');
+}
+.crossfade > figure:nth-child(4) {
+  animation-delay: 15s;
+  background-image: url('busbus.jpg');
+}
+.crossfade > figure:nth-child(5) {
+  animation-delay: 20s;
+  background-image: url('paris.jpg');
+}
+@keyframes imageAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+div.item {
+vertical-align: bottom;
+display: inline-block;
+text-align: left;
+width: 120px;
+}
